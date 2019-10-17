@@ -1,0 +1,100 @@
+div {
+  box-sizing: border-box;
+}
+#header {
+  background-color: white;
+}
+.section {
+  width: 80%;
+  margin: auto;
+}
+.logo {
+  max-width: 200px;
+}
+#navbar {
+  background-color: black;
+  padding: 10px 0px;
+}
+#navbar ul {
+  list-style-type: none;
+}
+#navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+#navbar ul li.active a {
+  color: red;
+}
+#navbar ul li a:hover {
+  color: red;
+}
+#carousel {
+  background-image: url("../img/slider_1.jpg");
+  height: 450px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-list .product-item {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.product-list .product-item img {
+  max-width: 100%;
+}
+.product-list .product-item h3 {
+  font-size: 30px;
+}
+.product-list .product-item p {
+  text-align: justify;
+}
+.product-list .product-item button {
+  background-color: #a11a17;
+  border: 2px solid #a11a17;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+.clear {
+  clear: both;
+}
+#banner {
+  height: 400px;
+  background-image: url("../img/nature.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.banner-circle {
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(152, 19, 19, 0.6);
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  border: 1px solid transparent;
+  padding-top: 30px;
+}
+.banner-circle p:first-child {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.banner-circle p:nth-child(2) {
+  font-size: 70px;
+  margin: 10px 0;
+}
+.banner-circle p:last-child {
+  font-size: 20px;
+  margin-top: 0;
+}
