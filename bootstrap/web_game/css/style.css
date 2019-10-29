@@ -1,0 +1,211 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.header__navbar .nav-item {
+  position: relative;
+}
+.header__navbar .nav-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(to right, #fbbd61, #ec7532);
+  transition: all 0.5s;
+}
+.header__navbar .nav-item.active::after {
+  width: 100%;
+}
+.header__navbar .nav-item:hover::after {
+  width: 100%;
+}
+.myCarousel .overplay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+.myCarousel .carousel__caption {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+.carousel__caption p:first-child {
+  color: #fbbd61;
+}
+.carousel__caption .pg {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  margin-right: 10px;
+}
+.carousel__caption button {
+  background: linear-gradient(to right, #fbbd61, #ec7532);
+  border-radius: 40px;
+  border: none;
+}
+.myCarousel li {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.myCarousel li.act {
+  background-color: white;
+}
+.myCarousel ul {
+  justify-content: flex-start;
+}
+.showing .row .movie__item {
+  border-radius: 5%;
+  overflow: hidden;
+  position: relative;
+}
+.movie__overplay {
+  position: absolute;
+  top: 0;
+  left: -362%;
+  width: 300%;
+  height: 100%;
+  background: linear-gradient(to right, #fbbd61, #ec7532);
+  transform: skewX(45deg);
+  transition: all 0.5s;
+}
+.showing .movie__item:hover .movie__overplay {
+  left: -62%;
+}
+.movie__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.movie__play .movie__circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.movie__circle i {
+  line-height: 60px;
+}
+.movie__item:hover .movie__play {
+  opacity: 1;
+}
+.show-time .nav-tabs .nav-item .nav-link {
+  border-color: transparent;
+  border-bottom-color: #dee2e6;
+  position: relative;
+}
+.show-time .nav-tabs .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #fbbd51, #ec7532);
+  transition: all 0.5s;
+}
+.show-time .nav-tabs .nav-item .nav-link.active::before {
+  width: 100%;
+}
+.show-time .nav-tabs .nav-item:hover .nav-link::before {
+  width: 100%;
+}
+.show-time img {
+  width: 100%;
+}
+.show-time .show-time__image {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.show-time__movie p:first-child {
+  font-size: 14px;
+  margin: 0;
+  color: #ec7532;
+}
+.show-time__movie h3 {
+  font-weight: 300;
+}
+.show-time__movie p:nth-child(3) {
+  font-size: 14px;
+}
+.show-time__movie a {
+  font-size: 14px;
+  color: #fbbd61;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.viewing__time {
+  font-size: 14px;
+  columns: #b2b2b2;
+}
+.viewing__time .btn {
+  background-color: #b2b5b9;
+}
+.movie__duration span {
+  color: white;
+  width: 20px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: black;
+  font-weight: 200;
+}
+.coming {
+  background-color: #000;
+}
+.coming .bg__coming {
+  padding: 80px 0;
+  background: url("../img/slide-3.png") no-repeat center center;
+  background-size: cover;
+}
+.coming__logo h3 {
+  border-bottom: 3px solid #ec7532;
+  width: 20%;
+  color: white;
+}
+.coming .coming__trailer {
+  margin-left: 600px;
+}
+.coming__trailer img {
+  position: relative;
+}
+.coming__trailer .video__play:hover {
+  transform: translate(-50%, -50%) scale(0.9);
+}
+.coming__trailer .video__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+  font-size: 20px;
+  text-align: center;
+}
+.video__play {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid #ec7532;
+  line-height: 80px;
+  cursor: pointer;
+}
+.coming__content {
+  color: white;
+  margin: 50px;
+}
