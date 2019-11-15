@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  padding: 10px 0;
+  border-bottom: 3px solid yellow;
+}
+.form-control,
+.input-group-text {
+  border-radius: 15px;
+}
+header h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 1px 0 2px red;
+}
+header h1 span {
+  color: red;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: green;
+}
+.active {
+  background-color: blue;
+}
+.nav-item,
+.nav-link,
+.navbar {
+  padding: 0;
+  margin: 0;
+}
+.nav-item {
+  margin: 0 10px;
+}
+.nav-item a {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.nav-item a:hover {
+  background-color: blue;
+}
+nav h1 {
+  margin-top: 12px;
+}
+.dropdown-menu {
+  margin-top: 15px;
+  padding: 10px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+}
+.container-1 {
+  width: 100%;
+  height: 100%;
+}
+.card-img {
+  width: 50px;
+}
+.card button {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+.card {
+  position: relative;
+}
+.card .bg-nen {
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 5px;
+  border-radius: 5px;
+}
+.card .bg-nen h3 {
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 1px 0 2px red;
+  color: white;
+  padding-bottom: 0;
+}
+.card .bg-nen span {
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 1px 0 2px red;
+  color: white;
+  padding-bottom: 0;
+}
+section h1 {
+  color: white;
+  font-size: 36px;
+  text-shadow: 1px 1px 3px blue;
+  font-weight: 500;
+  padding-top: 15px;
+}
+.box .d-flex img {
+  width: 150px;
+}
+footer {
+  background-color: black;
+  padding: 50px 0;
+  text-align: center;
+}
+footer h1 {
+  color: white;
+}
+footer h3 {
+  color: blue;
+}
+footer h6 {
+  color: white;
+}
+footer span {
+  color: white;
+}
+footer p {
+  color: white;
+}
